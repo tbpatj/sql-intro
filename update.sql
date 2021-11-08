@@ -6,7 +6,7 @@ WHERE fax = '';
 -- 2.
 UPDATE customer
 SET company = 'self'
-WHERE company = '';
+WHERE company IS NULL;
 
 
 -- 3.
